@@ -1,51 +1,56 @@
 {
   "squares": [
-    { "name": "media",
+    {
+      "name": "media",
       "color": "red",
       "links": [
         { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
+        { "name": "Youtube", "url": "https://youtube.com" },
+        {
+          "name": "Jellyfin",
+          "url": "https://emby.homelab.ooo/web/index.html "
+        }
       ]
     },
-    { "name": "work",
+    {
+      "name": "work",
       "color": "#26A69A",
       "links": [
+        { "name": "Gogs", "url": "https://git.homelab.ooo" },
         { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
+        { "name": "localhost", "url": "http://localhost:1234/" }
       ]
     },
-    { "name": "social",
+    {
+      "name": "social",
       "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
+        {
+          "name": "Reddit",
+          "url": "https://old.reddit.com/r/archlinux+linux4noobs+linuxquestions+unixporn/"
+        },
+        { "name": "Hacker News", "url": "https://news.ycombinator.com" }
       ]
     },
     {
       "name": "Others",
       "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
+        { "name": "Hey", "url": "https://app.hey.com" },
+        { "name": "Google Drive", "url": "https://drive.google.com" },
+        {"name": "Fast", "url": "https://fast.com"}
       ]
     }
   ],
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
-  "disableMessage": false,
+  "searchEngine": "DuckDuckGo",
+  "user": "Tirey",
+  "disableMessage": true,
   "disableDate": false,
   "disableSearchBar": false,
   "disable24Hour": false,
-  "disableWeather": true,
-  "timeZone": "America/Los_Angeles",
+  "disableWeather": false,
+  "timeZone": "America/Chicago",
   "weatherConf": {
-    "location": "Pune India",
-    "unit": "cel"
+    "location": "Austin, TX`",
+    "unit": "fahr"
   },
   "settingsIcon": false
 }
