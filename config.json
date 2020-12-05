@@ -25,6 +25,10 @@
       "name": "social",
       "links": [
         {
+          "name": "Teddit",
+          "url": "https://teddit.net/r/archlinux+linux4noobs+linuxquestions+unixporn+adventofcode+thinkpad+rocketleague+mac+cyberdeck+outoftheloop+politics+selfhosted+virtualreality+webdev+youtubehaiku+homeserver"
+        },
+        {
           "name": "Reddit",
           "url": "https://old.reddit.com/r/archlinux+linux4noobs+linuxquestions+unixporn/"
         },
